@@ -2,6 +2,13 @@
   "name": "node-starter",
   "version": "0.0.0",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "mesh build",
+    "start": "mesh start"
+  },
+  "dependencies": {
+    "@graphql-mesh/cli": "^0.82.7",
+    "@graphql-mesh/graphql": "^0.33.6",
+    "graphql": "^16.6.0"
   }
 }
